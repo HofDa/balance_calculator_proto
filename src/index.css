@@ -166,11 +166,16 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    height: 100%;
+  }
   body {
     @apply bg-background text-foreground;
     margin: 0;
     min-width: 320px;
-    min-height: 100vh;
+    min-height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
   a {
     @apply underline-offset-4 hover:underline;
