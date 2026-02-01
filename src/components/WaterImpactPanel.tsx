@@ -116,7 +116,7 @@ function DonutWithTarget({
     <div className="flex flex-col items-center gap-3">
       <svg
         viewBox="0 0 140 140"
-        className="h-44 w-44"
+        className="h-64 w-64"
         role="img"
         aria-label="Wasser: Ist-Verteilung mit Ziel-Innenring"
       >
